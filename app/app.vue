@@ -11,16 +11,16 @@ useHead({
   }
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.'
+const title = 'Just Fucking Use Nuxt UI - Stop Wasting Time Building Components'
+const description = 'Stop reinventing the wheel. Nuxt UI is a fully customizable, accessible component library built on Headless UI and Tailwind CSS. Tree-shakeable, dark mode ready, and 30+ components that actually work. Just fucking use it.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: '/ogImage.png',
+  twitterImage: '/ogImage.png',
   twitterCard: 'summary_large_image'
 })
 </script>
@@ -43,7 +43,7 @@ useSeoMeta({
 
     <UMain>
       <UContainer>
-        <NuxtPage class="prose dark:prose-invert prose-lg max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:px-8 selection:bg-blue-500 selection:text-white" />
+        <NuxtPage class="prose dark:prose-invert prose-lg max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:px-8 selection:bg-primary selection:text-white" />
       </UContainer>
     </UMain>
 
@@ -63,7 +63,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
+          to="https://github.com/roiLeo/justfuckingusenuxtui"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
